@@ -11,7 +11,7 @@ for i = 1:13
      axis("tight", "tic");
      xlabel("Liczba Falowa cm^-1");
      ylabel("Absorbancja");
-     set (gca (), "xdir", "reverse", "ytick", [], "xtick", 700:100:4000)
+     set (gca (), "xdir", "reverse", "ytick", [0], "xtick", 700:100:4000)
      set(gcf, 'PaperSize', [23.2 8.2], 'PaperPosition', [0 0 23.2 8.2])
 print (strcat("PlotsMadzia/", int2str(i),".pdf"))
 close()
@@ -41,6 +41,7 @@ plot(X, Y)
      set(gcf, 'PaperSize', [23.2 8.2], 'PaperPosition', [0 0 23.2 8.2])
 print ("PlotsMadzia/Final1.pdf")
 close()
+#{
 plot(X, Y2)
      grid minor on
      axis("tight", "tic");
@@ -81,3 +82,4 @@ plot(X, Y5)
      set(gcf, 'PaperSize', [23.2 8.2], 'PaperPosition', [0 0 23.2 8.2])
 print ("PlotsMadzia/Final5.pdf")
 close()
+#}
