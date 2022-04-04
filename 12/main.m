@@ -22,7 +22,7 @@ figure(1);
 plot(Mt(1:end,2),Mt(1:end,1),".r","markersize",15,
     Y1 ,PolyT,"linewidth",2);
 grid minor on
-xlabel("Thickness");
+xlabel("Thickness [mm]");
 ylabel("ABS");
 print ("Plots/Transparent.pdf")
 close()
@@ -39,7 +39,7 @@ figure(2);
 plot(Mr(1:end,2),Mr(1:end,1),".r","markersize",15,
     Y2,PolyT,"linewidth",2);
 grid minor on
-xlabel("Thickness");
+xlabel("Thickness [mm]");
 ylabel("ABS");
 print (strcat("Plots/Red.pdf"))
 close()
@@ -56,7 +56,7 @@ figure(3);
 plot(Mg(1:end,2),Mg(1:end,1),".r","markersize",15,
     Y2,PolyT,"linewidth",2);
 grid minor on
-xlabel("Thickness");
+xlabel("Thickness [mm]");
 ylabel("ABS");
 print (strcat("Plots/Green.pdf"))
 close()
@@ -73,7 +73,7 @@ figure(4);
 plot(Mb(1:end,2),Mb(1:end,1),".r","markersize",15,
     Y2,PolyT,"linewidth",2);
 grid minor on
-xlabel("Thickness");
+xlabel("Thickness [mm]");
 ylabel("ABS");
 print (strcat("Plots/Blue.pdf"))
 close()
@@ -90,7 +90,7 @@ figure(5);
 plot(My(1:end,2),My(1:end,1),".r","markersize",15,
     Y2,PolyT,"linewidth",2);
 grid minor on
-xlabel("Thickness");
+xlabel("Thickness [mm]");
 ylabel("ABS");
 print (strcat("Plots/Yellow.pdf"))
 close()
