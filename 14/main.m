@@ -74,7 +74,7 @@ figure(5);
 plot(f,Uh,".k","markersize", 15,
      linspace(fb, fy, 50), h_poly,"linewidth",2);
 ylim([0, 2]);
-xlim([0 7e+14]);
+#xlim([0 7e+14]);
 grid minor on
 print ("Plots/Final.pdf");
 close();
